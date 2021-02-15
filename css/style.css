@@ -19,7 +19,6 @@
 
   --background-black: rgba(47,48,58,1);
 
-  --card-set-gap: 30px;
 
 }
 
@@ -34,9 +33,13 @@ body {
 }
 
 .container {
-  width: 1230px;
-  padding: 0 15px;
-  border: 1px solid red;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* border: 1px solid red; */
 }
 
 
@@ -81,6 +84,12 @@ p {
 }
 
 /* HEADER */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
 
 .logo {
   color: var(--blue-text);
@@ -179,6 +188,8 @@ ul {
 .hero {
   background-color: var(--background-black);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -188,8 +199,8 @@ ul {
   line-height: 1.36;
   letter-spacing: 0.06em;
   margin: 0;
-  padding-top: 200px;
   padding-bottom: 30px;
+  
 }
 
 .hero-button {
@@ -201,15 +212,17 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
+}
+
+.advantages {
+  padding-top: 94px ;
+  padding-bottom: 90px;
 }
 
 .advantages-list {
   display: flex;
   flex-wrap: wrap ;
-  padding: 0;
-  margin-top: 140px;
-  margin-bottom: 94px;
   justify-content: space-between;
 }
 
@@ -233,6 +246,12 @@ ul {
 }
 
 /* WORK */
+
+.work {
+  padding-top: 90px;
+  padding-bottom: 94px;
+}
+
 .work-list,
 .title-w-t {
   display: flex;
@@ -241,7 +260,6 @@ ul {
 .title-w-t {
   justify-content: center;
   margin-top: 0;
-  margin-bottom: 50px;
 }
 
 .work-images {
@@ -250,8 +268,6 @@ ul {
 
 .work-list {
   margin-top: 0;
-  padding: 0;
-  margin-bottom: 94px;
   justify-content: space-between;
 }
 
@@ -261,21 +277,19 @@ ul {
 
 /* TEAM */
 
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .team-list,
 .title-w { 
   display: flex;
   justify-content: center;
 }
 
-.title-w {
-  margin-top: 94px;
-  margin-bottom: 50px;
-}
-
 .team-list {
   margin-top: 0px;
-  padding: 0;
-  margin-bottom: 94px;
   justify-content: space-between;
 }
 
@@ -290,6 +304,11 @@ ul {
 
 
 /* footer */
+
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
 .footer-address {
   display: flex;
@@ -397,12 +416,13 @@ main .button  {
 /* portfolio container */
 
 .container-portfolio {
-  width: 1230px;
-  padding: 0 15px; 
-
-  border: 1px solid red;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
+
+  /* border: 1px solid red; */
 }
 
 /* card-set */
@@ -453,6 +473,6 @@ main .button  {
 } */
 
 .card-content {
-  margin-top: 20px;
-  margin-left: 24px;
+  padding: 20px 24px;
+  
 }
