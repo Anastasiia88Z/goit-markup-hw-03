@@ -19,6 +19,8 @@
 
   --background-black: rgba(47,48,58,1);
 
+  --card-set-gap: 30px;
+
 
 }
 
@@ -29,7 +31,7 @@ body {
 .img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: auto; 
 }
 
 .container {
@@ -212,7 +214,6 @@ ul {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  /* margin-bottom: 200px; */
 }
 
 .advantages {
@@ -321,14 +322,12 @@ ul {
 }
 
 .footer-name {
-  padding-top: 60px;
   padding-left: 15px;
 }
 
 .footer-list {
   margin: 0;
   padding-left: 15px;
-  padding-bottom: 60px;
 }
 
 .footer {
@@ -380,7 +379,7 @@ ul {
 }
 
 /* кнопки */
-main .button  {
+.main .button  {
   background-color: var(--backgroung-white);
   color: var(--black-text);
   font-weight: 500;
@@ -425,12 +424,18 @@ main .button  {
   /* border: 1px solid red; */
 }
 
+.portfolio { 
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 /* card-set */
 
 .card-set {
   
   padding: 0;
-  margin-top: 94px;
+  margin-top: 0;
   margin-bottom: 50px;
   
   display: flex;
@@ -448,8 +453,8 @@ main .button  {
 .site {
 
   /* outline: 1px solid blue; */
-  padding: 0;
-  margin: 0;
+  padding: 0; 
+  margin: 0; 
   display: flex;
   flex-wrap: wrap;
   margin-left: calc( -1 * var(--card-set-gap));
@@ -462,11 +467,13 @@ main .button  {
   margin-top: var(--card-set-gap);
 }
 
-/* .card-thumb {
-  outline: 1px solid red;
+.card-thumb { 
+  
+  /* outline: 1px solid red; */
   width: 370px;
   height: 294px;
-} */
+  margin-right: 0;
+} 
 
 /* .site-card {
   outline: 1px solid red;
@@ -474,5 +481,6 @@ main .button  {
 
 .card-content {
   padding: 20px 24px;
-  
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-top: 0;
 }
